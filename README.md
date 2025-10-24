@@ -75,7 +75,7 @@ bayesian-inference-using-GP/
 
 ### `pymc-gp-toy_model.ipynb`
 
-Kennedy and O'Hagan (2001)의 Bayesian Model Calibration 방법론을 기반으로 한 Gaussian Process 예제입니다.
+Kennedy and O'Hagan (2001)의 Bayesian Model Calibration 방법론에서 Bias term을 제외하여 Gaussian Process를 이용한 서로게이트 모델로 Bayesian inference를 수행하는 예제입니다.
 
 **주요 내용:**
 - 컴퓨터 시뮬레이션 데이터와 실제 관측 데이터 통합
