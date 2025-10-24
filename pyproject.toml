@@ -1,5 +1,5 @@
 [project]
-name = "pymc-examples"
+name = "pymc-examples-using-GP"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
