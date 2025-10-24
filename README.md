@@ -1,6 +1,6 @@
 # Bayesian Inference using Gaussian Process
 
-PyMC를 활용한 Bayesian Model Calibration 및 Gaussian Process 모델링 예제
+PyMC를 활용한 Bayesian Inference 및 Gaussian Process 서로게이트 모델링 예제
 
 > Windows 환경 기준으로 작성되었습니다.
 
@@ -41,19 +41,8 @@ uv sync
 uv run jupyter notebook
 ```
 
-`uv sync` 명령어는 `.python-version`에 명시된 Python 버전을 자동으로 다운로드하고, 가상환경을 생성하며, 모든 패키지를 설치합니다.
+`uv sync` 명령어는 `.python-version`에 명시된 Python 버전을 자동으로 다운로드하고, 가상환경을 생성하며, 모든 패키지를 설치합니다. Python 및 관련 라이브러리를 한번에 설치하기 때문에, 간편하게 개발자와 동일한 환경을 만들 수 있습니다.   
 
-### 가상환경 활성화 (선택사항)
-
-**PowerShell:**
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-**CMD:**
-```cmd
-.venv\Scripts\activate.bat
-```
 
 ## 프로젝트 구조
 
